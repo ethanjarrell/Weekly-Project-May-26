@@ -1,0 +1,292 @@
+
+@font-face {
+    font-family: "Lora", "Roboto", "Merriweather";
+    font-weight: 200px;
+    font-style: normal;
+    src: local('Lora', 'Roboto', 'Merriweather'), url( "http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format('woff2');
+}
+body{
+  background-color: #F2F1E8;
+  width: 95vw;
+  height: 70vh;
+}
+main{
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  background-color: #F2F1E8;
+  width: 95vw;
+  height: 70vh;
+}
+img{
+  height: 20vh;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  zoom: .3;
+  margin: 1vw 0vh 0vw 1vh;
+  color: black;
+}
+.navbar{
+  top: 0;
+  position: fixed;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 95vw;
+  height: 7vh;
+}
+.navigation{
+  margin-top: 1.8vh;
+  display: flex;
+  justify-content: space-between;
+  width: 35vw;
+  height: 3.7vh;
+}
+.home{
+  text-decoration: underline;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #968772;
+}
+.home:hover{
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #CD5D67;
+}
+.home:active{
+  text-decoration: underline;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #968772;
+}
+a.about{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #2B2F26;
+}
+.about:hover{
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #CD5D67;
+}
+.about:active{
+  text-decoration: underline;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #968772;
+}
+a.newsletter{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #2B2F26;
+}
+.newsletter:hover{
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #CD5D67;
+}
+.newsletter:active{
+  text-decoration: underline;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #968772;
+}
+.sub-header{
+  margin-top: 5vh;
+  background-color: #F2F1E8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: 22.5vh;
+}
+.main-title{
+  font-family: 'Lora';
+  font-weight: bold;
+  font-size: 5.8vh;
+  color: #131511;
+}
+.sub-title{
+  font-family: 'Lora';
+  font-size: 3.5vh;
+  color: #131511;
+}
+.row1{
+  background-color: #F2F1E8;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: 34.8vh;
+}
+.box1{
+  display: flex;
+  align-items: flex-end;
+  background-image: url(product-1.jpg);
+  background-size: cover;
+  width: 56.9vw;
+  height: 32.9vh;
+}
+.insidebox1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.3vh;
+  margin: 1.4vw 0vh 1.4vw 0vh;
+  font-family: 'Lora';
+  color: #F2F1E8;
+  background-color: #333333;
+  width: 19.5vw;
+  height: 4.7vh;
+}
+.box2{
+  display: flex;
+  align-items: flex-end;
+  background-image: url(product-2.jpg);
+  background-size: cover;
+  width: 18.3vw;
+  height: 32.9vh;
+}
+.insidebox2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.3vh;
+  margin: 1.4vw 0vh 1.4vw 0vh;
+  font-family: 'Lora';
+  color: #F2F1E8;
+  background-color: #333333;
+  width: 5.8vw;
+  height: 4.7vh;
+}
+.box3{
+  display: flex;
+  align-items: flex-end;
+  background-image: url(product-3.jpg);
+  background-size: cover;
+  width: 18.3vw;
+  height: 32.9vh;
+}
+.insidebox3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.3vh;
+  margin: 1.4vw 0vh 1.4vw 0vh;
+  font-family: 'Lora';
+  color: #F2F1E8;
+  background-color: #333333;
+  width: 8.9vw;
+  height: 4.7vh;
+}
+.row2{
+  background-color: #F2F1E8;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: 22.5vh;
+}
+.box4{
+  display: flex;
+  align-items: flex-end;
+  background-image: url(product-4.jpg);
+  background-size: cover;
+  width: 18.3vw;
+  height: 20.7vh;
+}
+.insidebox4{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.3vh;
+  margin: 1.4vw 0vh 1.4vw 0vh;
+  font-family: 'Lora';
+  color: #F2F1E8;
+  background-color: #333333;
+  width: 12.1vw;
+  height: 4.7vh;
+}
+.box5{
+  display: flex;
+  align-items: flex-end;
+  background-image: url(product-5.jpg);
+  background-size: cover;
+  width: 18.3vw;
+  height: 20.7vh;
+}
+.insidebox5{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2vh;
+  margin: 1.4vw 0vh 1.4vw 0vh;
+  font-family: 'Lora';
+  color: #F2F1E8;
+  background-color: #333333;
+  width: 18.7vw;
+  height: 4.7vh;
+}
+.box6{
+  display: flex;
+  align-items: flex-end;
+  background-image: url(product-6.jpg);
+  background-size: cover;
+  width: 37.5vw;
+  height: 20.7vh;
+}
+.insidebox6{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.3vh;
+  margin: 1.4vw 0vh 1.4vw 0vh;
+  font-family: 'Lora';
+  color: #F2F1E8;
+  background-color: #333333;
+  width: 16.8vw;
+  height: 4.7vh;
+}
+.box7{
+  display: flex;
+  align-items: flex-end;
+  background-image: url(product-7.jpg);
+  background-size: cover;
+  width: 18.3vw;
+  height: 20.7vh;
+}
+.insidebox7{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2vh;
+  margin: 1.4vw 0vh 1.4vw 0vh;
+  font-family: 'Lora';
+  color: #F2F1E8;
+  background-color: #333333;
+  width: 18.7vw;
+  height: 4.7vh;
+}
+.container-footer{
+  font-family: 'Lora';
+  font-size: 2.3vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #333333;
+  color: #F2F1E8;
+  width: 95vw;
+  height: 9.4vh;
+}
+.insidefooter{
+  margin-left: 1.9vw;
+  width: 39.1vw;
+
+}

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Lora", "Roboto", "Merriweather";
+    font-weight: 200px;
+    font-style: normal;
+    src: local('Lora', 'Roboto', 'Merriweather'), url( "http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format('woff2');
+}
+body{
+
+  background-color: #F2F1E8;
+  width: 95vw;
+  height: 70vh;
+}
+main{
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  background-image: url(background-2.jpg);
+  background-size: cover;
+  width: 95vw;
+  height: 95vh;
+}
+img{
+  height: 20vh;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  zoom: .3;
+  margin: 1vw 0vh 0vw 1vh;
+  color: black;
+}
+.navbar{
+  top: 0;
+  position: fixed;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 95vw;
+  height: 7vh;
+}
+.navigation{
+  margin-top: 1.8vh;
+  display: flex;
+  justify-content: space-between;
+  width: 35vw;
+  height: 3.7vh;
+}
+.home{
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #2B2F26;
+}
+.home:hover{
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #CD5D67;
+}
+.home:active{
+  text-decoration: underline;
+  font-style: normal;
+  duration: 100s;
+  font-family: sans-serif;
+  color: #968772;
+}
+a.about{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #2B2F26;
+}
+.about:hover{
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #CD5D67;
+}
+.about:active{
+  text-decoration: underline;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #968772;
+}
+a.newsletter{
+  text-decoration: underline;
+  font-style: normal;
+  duration: 100s;
+  font-family: sans-serif;
+  color: #968772;
+}
+.newsletter:hover{
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #CD5D67;
+}
+.newsletter:active{
+  text-decoration: underline;
+  font-style: normal;
+  duration: 100s;
+  font-family: sans-serif;
+  color: #968772;
+}
+.form{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
