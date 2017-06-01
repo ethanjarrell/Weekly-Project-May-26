@@ -5,12 +5,14 @@
     font-style: normal;
     src: local('Lora', 'Roboto', 'Merriweather'), url( "http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format('woff2');
 }
-body{
+
+body {
   background-color: #F2F1E8;
   width: 95vw;
   height: 70vh;
 }
-main{
+
+main {
   display: flex;
   flex-flow: column;
   align-content: center;
@@ -18,7 +20,8 @@ main{
   width: 95vw;
   height: 70vh;
 }
-img{
+
+img {
   height: 20vh;
   top: 0;
   position: fixed;
@@ -27,7 +30,8 @@ img{
   margin: 1vw 0vh 0vw 1vh;
   color: black;
 }
-.navbar{
+
+.navbar {
   top: 0;
   position: fixed;
   margin: 0 auto;
@@ -38,66 +42,78 @@ img{
   width: 95vw;
   height: 7vh;
 }
-.navigation{
+
+.navigation {
+  text-transform: uppercase;
   margin-top: 1.8vh;
   display: flex;
   justify-content: space-between;
   width: 35vw;
   height: 3.7vh;
 }
-.home{
+
+.home {
   text-decoration: underline;
   font-style: normal;
   font-family: sans-serif;
   color: #968772;
 }
-.home:hover{
+
+.home:hover {
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
   color: #CD5D67;
 }
-.home:active{
+
+.home:active {
   text-decoration: underline;
   font-style: normal;
   font-family: sans-serif;
   color: #968772;
 }
-a.about{
+
+a.about {
   text-decoration: none;
   font-family: sans-serif;
   color: #2B2F26;
 }
-.about:hover{
+
+.about:hover {
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
   color: #CD5D67;
 }
-.about:active{
+
+.about:active {
   text-decoration: underline;
   font-style: normal;
   font-family: sans-serif;
   color: #968772;
 }
-a.newsletter{
+
+a.newsletter {
   text-decoration: none;
   font-family: sans-serif;
   color: #2B2F26;
 }
-.newsletter:hover{
+
+.newsletter:hover {
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
   color: #CD5D67;
 }
-.newsletter:active{
+
+.newsletter:active {
   text-decoration: underline;
   font-style: normal;
   font-family: sans-serif;
   color: #968772;
 }
-.sub-header{
+
+.sub-header {
   margin-top: 5vh;
   background-color: #F2F1E8;
   display: flex;
@@ -107,18 +123,22 @@ a.newsletter{
   width: 95vw;
   height: 22.5vh;
 }
-.main-title{
+
+.main-title {
+  text-shadow: 3px 3px #AFA284;
   font-family: 'Lora';
   font-weight: bold;
   font-size: 5.8vh;
   color: #131511;
 }
-.sub-title{
+
+.sub-title {
   font-family: 'Lora';
   font-size: 3.5vh;
   color: #131511;
 }
-.row1{
+
+.row1 {
   background-color: #F2F1E8;
   align-items: center;
   display: flex;
@@ -126,7 +146,8 @@ a.newsletter{
   width: 95vw;
   height: 34.8vh;
 }
-.box1{
+
+.box1 {
   display: flex;
   align-items: flex-end;
   background-image: url(product-1.jpg);
@@ -134,7 +155,8 @@ a.newsletter{
   width: 56.9vw;
   height: 32.9vh;
 }
-.insidebox1{
+
+.insidebox1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -146,7 +168,8 @@ a.newsletter{
   width: 19.5vw;
   height: 4.7vh;
 }
-.box2{
+
+.box2 {
   display: flex;
   align-items: flex-end;
   background-image: url(product-2.jpg);
@@ -154,7 +177,8 @@ a.newsletter{
   width: 18.3vw;
   height: 32.9vh;
 }
-.insidebox2{
+
+.insidebox2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -166,7 +190,8 @@ a.newsletter{
   width: 5.8vw;
   height: 4.7vh;
 }
-.box3{
+
+.box3 {
   display: flex;
   align-items: flex-end;
   background-image: url(product-3.jpg);
@@ -174,7 +199,8 @@ a.newsletter{
   width: 18.3vw;
   height: 32.9vh;
 }
-.insidebox3{
+
+.insidebox3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -186,7 +212,8 @@ a.newsletter{
   width: 8.9vw;
   height: 4.7vh;
 }
-.row2{
+
+.row2 {
   background-color: #F2F1E8;
   align-items: center;
   display: flex;
@@ -194,7 +221,8 @@ a.newsletter{
   width: 95vw;
   height: 22.5vh;
 }
-.box4{
+
+.box4 {
   display: flex;
   align-items: flex-end;
   background-image: url(product-4.jpg);
@@ -202,7 +230,8 @@ a.newsletter{
   width: 18.3vw;
   height: 20.7vh;
 }
-.insidebox4{
+
+.insidebox4 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -214,7 +243,8 @@ a.newsletter{
   width: 12.1vw;
   height: 4.7vh;
 }
-.box5{
+
+.box5 {
   display: flex;
   align-items: flex-end;
   background-image: url(product-5.jpg);
@@ -222,7 +252,8 @@ a.newsletter{
   width: 18.3vw;
   height: 20.7vh;
 }
-.insidebox5{
+
+.insidebox5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -234,7 +265,8 @@ a.newsletter{
   width: 18.7vw;
   height: 4.7vh;
 }
-.box6{
+
+.box6 {
   display: flex;
   align-items: flex-end;
   background-image: url(product-6.jpg);
@@ -242,7 +274,8 @@ a.newsletter{
   width: 37.5vw;
   height: 20.7vh;
 }
-.insidebox6{
+
+.insidebox6 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -254,7 +287,8 @@ a.newsletter{
   width: 16.8vw;
   height: 4.7vh;
 }
-.box7{
+
+.box7 {
   display: flex;
   align-items: flex-end;
   background-image: url(product-7.jpg);
@@ -262,7 +296,8 @@ a.newsletter{
   width: 18.3vw;
   height: 20.7vh;
 }
-.insidebox7{
+
+.insidebox7 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -274,7 +309,8 @@ a.newsletter{
   width: 18.7vw;
   height: 4.7vh;
 }
-.container-footer{
+
+.container-footer {
   font-family: 'Lora';
   font-size: 2.3vh;
   display: flex;
@@ -285,8 +321,8 @@ a.newsletter{
   width: 95vw;
   height: 9.4vh;
 }
-.insidefooter{
+
+.insidefooter {
   margin-left: 1.9vw;
   width: 39.1vw;
-
 }

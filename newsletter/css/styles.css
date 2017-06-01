@@ -4,14 +4,15 @@
     font-style: normal;
     src: local('Lora', 'Roboto', 'Merriweather'), url( "http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format('woff2');
 }
-body{
+
+body {
   display: block;
   background-color: #F2F1E8;
   width: 95vw;
-  height: 600px;
+  height: 100vh;
 }
 
-img{
+img {
   height: 20vh;
   top: 0;
   position: fixed;
@@ -20,7 +21,8 @@ img{
   margin: 1vw 0vh 0vw 1vh;
   color: black;
 }
-.navbar{
+
+.navbar {
   top: 0;
   position: fixed;
   margin: 0 auto;
@@ -31,70 +33,81 @@ img{
   width: 95vw;
   height: 7vh;
 }
-.navigation{
+
+.navigation {
+  text-transform: uppercase;
   margin-top: 1.8vh;
   display: flex;
   justify-content: space-between;
   width: 35vw;
   height: 3.7vh;
 }
-.home{
+
+.home {
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
   color: #2B2F26;
 }
-.home:hover{
+
+.home:hover {
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
   color: #CD5D67;
 }
-.home:active{
+
+.home:active {
   text-decoration: underline;
   font-style: normal;
   duration: 100s;
   font-family: sans-serif;
   color: #968772;
 }
-a.about{
+
+a.about {
   text-decoration: none;
   font-family: sans-serif;
   color: #2B2F26;
 }
-.about:hover{
+.about:hover {
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
   color: #CD5D67;
 }
-.about:active{
+
+.about:active {
   text-decoration: underline;
   font-style: normal;
   font-family: sans-serif;
   color: #968772;
 }
-a.newsletter{
+
+a.newsletter {
   text-decoration: underline;
   font-style: normal;
   duration: 100s;
   font-family: sans-serif;
   color: #968772;
 }
-.newsletter:hover{
+
+.newsletter:hover {
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
   color: #CD5D67;
 }
-.newsletter:active{
+
+.newsletter:active {
   text-decoration: underline;
   font-style: normal;
   duration: 100s;
   font-family: sans-serif;
   color: #968772;
 }
-.image{
+
+.image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,6 +116,7 @@ a.newsletter{
   background-image: url(background-2.jpg);
   background-size: cover;
 }
+
 .main-section {
   font-size: 25px;
   display: flex;
@@ -112,6 +126,7 @@ a.newsletter{
   background-color: #ffffff;
   padding: 2rem 0 0 0;
 }
+
 .sub-section {
   font-size: 16px;
   display: flex;
@@ -121,13 +136,15 @@ a.newsletter{
   background-color: #ffffff;
   padding: 0 0 0 0;
 }
-fieldset{
+
+fieldset {
   border-style: none;
   background-color: white;
-  width: 760px;
+  width: 500px;
   height: 400px;
 }
-.Fieldy-Field{
+
+.Fieldy-Field {
   height: 85%;
   display: flex;
   justify-content: space-around;
@@ -136,54 +153,81 @@ fieldset{
   width: 100%;
 }
 
-.entry-fields{
+.entry-fields {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 90%;
+  width: 190%;
 }
-.entry-fields1{
+
+.entry-fields1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.entry-fields2{
+
+.entry-fields2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.entry-fields input{
+
+.entry-fields input {
   color: lightgray;
   font-size: 20px;
   margin-top: 8px;
   height: 40px;
-  width: 400px;
+  width: 550px;
   margin-bottom: 8px;
 }
-.field3{
+
+.field3 {
   width: 110%;
   display: flex;
   justify-content: space-around;
 }
-.field4{
+
+.field4 {
   display: flex;
   flex-flow: column;
 }
-button{
+
+button {
+  border-style: none;
   font-size: 15px;
   background-color: #968772;
-  color: white;
+  color: #F2F1E8;
   height: 50px;
   width: 100px;
 }
-.outerfieldset{
+
+button:hover {
+  border-style: none;
+  font-size: 15px;
+  background-color: #967343;
+  color: #FFFFFF;
+  height: 50px;
+  width: 100px;
+}
+
+.outerfieldset {
+  margin-left: 10%;
+  width: 80%;
+}
+
+form {
   width: 90%;
 }
-form{
-  width: 90%;
-}
+
 input {
   border-style: none;
-  border-bottom: solid medium;
+  border-bottom: solid medium #968772;
+}
+
+input:focus {
+  color: #968772;
+  border-color: none;
+  border-style: none;
+  border-bottom: solid medium #967343;
 }
