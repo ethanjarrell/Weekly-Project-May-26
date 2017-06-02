@@ -10,23 +10,24 @@ h4 {
   margin: 1.17vw 0vh 0vw 0vh;
   font-family: 'Merriweather';
   font-weight: lighter;
-  font-size: 3vh;
+  font-size: 25px;
 }
 
 p {
-  font-size: 2.3vh;
+  font-size: 17px;
   font-family: 'Merriweather';
-  line-height: 2.7vh;
+  line-height: 19px;
 }
 
 blockquote {
-  font-size: 2.3vh;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .asidetext {
   font-family: 'Merriweather';
-  font-size: .47vh;
-  line-height: 1.18vh;
+  font-size: 15px;
+  line-height: 15px;
   font-weight: 45;
 }
 
@@ -44,11 +45,11 @@ body {
 }
 
 img {
-  height: 12vh;
+  height: 85px;
   position: fixed;
   zoom: .5;
   z-index: 2;
-  margin: -4 0vh 2 1;
+  margin: -38 0vh 2 1;
   color: black;
 }
 
@@ -61,7 +62,7 @@ img {
   align-items: center;
   background-color: white;
   width: 95vw;
-  height: 7vh;
+  height: 55px;
 }
 
 .navigation {
@@ -137,11 +138,12 @@ a.newsletter {
 }
 
 .header {
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #F2F1E8;
-  height: 7.1vh;
+  height: 200px;
   width: 100vw;
 }
 
@@ -149,7 +151,7 @@ a.newsletter {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4vh;
+  font-size: 30px;
   color: black;
   background-color: #F2F1E8;
   width: 62.54vw;
@@ -157,6 +159,7 @@ a.newsletter {
 }
 
 .bodyp1 {
+  margin-top: -35px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -183,8 +186,9 @@ a.newsletter {
 
 .content1 {
   background-color: #F2F1E8;
-  width: 62.54vw;
+  width: 500px;
   height: 23vh;
+  padding-bottom: 10px;
 }
 
 .image1 {
@@ -208,10 +212,10 @@ a.newsletter {
 }
 
 .content2 {
-  margin-top: 1vh;
-  margin-bottom: 5.47vw;
+  margin-top: -10px;
+  margin-bottom: 10px;
   background-color: #F2F1E8;
-  width: 62.54vw;
+  width: 500px;
   height: 13vh;
 }
 
@@ -220,7 +224,7 @@ a.newsletter {
 }
 
 .divider {
-  margin-top: 5vh;
+  margin-top: 45px;
   font-size: 7.75vh;
   display: flex;
   justify-content: center;
@@ -248,7 +252,7 @@ a.newsletter {
 .content3 {
   background-color: #F2F1E8;
   height: 15.9vh;
-  width: 50.82vw;
+  width: 500px;
 }
 
 .aside1 {
@@ -304,11 +308,11 @@ a.newsletter {
 
 table {
   margin-top: 3vh;
-  height: 3vh;
+  height: 40px;
 }
 
 tr {
-  font-size: 1.55vh;
+  font-size: 12px;
 }
 
 .td1 {
@@ -316,19 +320,21 @@ tr {
 }
 
 .container-footer {
-  margin-top: 20vh;
+  position: absolute;
+  margin-top: 135px;
   font-family: 'Lora';
-  font-size: 2.5vh;
+  font-size: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: nowrap;
   background-color: #333333;
   color: #F2F1E8;
   width: 100vw;
-  height: 8vh;
+  height: 50px;
 }
 
 .insidefooter {
   margin-left: 1.18vh;
-  width: 39vw;
+  width: 500px;
 }
